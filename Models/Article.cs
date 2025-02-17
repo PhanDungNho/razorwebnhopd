@@ -3,18 +3,16 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-//CRUD
-namespace razorweb.models 
+namespace razorweb.models
 {
-    // [Table("posts")] razorweb.models.Article
-    public class Article {
-
+    public class Article
+    {
         [Key]
         public int Id { get; set; }
 
         [StringLength(255, MinimumLength = 5, ErrorMessage = "{0} phải dài từ {2} tới {1} ký tự")]
         [Required(ErrorMessage = "{0} phải nhập")]
-        [Column(TypeName = "nvarchar")]
+        [Column(TypeName = "varchar(255)")]  
         [DisplayName("Tiêu đề")]
         public string Title { get; set; }
 
@@ -23,7 +21,7 @@ namespace razorweb.models
         [DisplayName("Ngày tạo")]
         public DateTime Created { get; set; }
 
-        [Column(TypeName = "ntext")]
+        [Column(TypeName = "text")]  
         [DisplayName("Nội dung")]
         public string Content { get; set; }
     }
