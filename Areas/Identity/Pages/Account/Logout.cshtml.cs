@@ -36,8 +36,10 @@ namespace razorweb.Areas.Identity.Pages.Account
                 return LocalRedirect(returnUrl);
             }
             else
-            {
-                return RedirectToPage();
+            {   
+                returnUrl = Url.Content("~/");
+                return LocalRedirect(returnUrl);
+                // return RedirectToPage();
             }
         }
     }
