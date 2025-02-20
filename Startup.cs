@@ -14,6 +14,7 @@ using razorweb.models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using razorweb.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using App.Services;
 
 namespace razorweb
 {
@@ -80,6 +81,8 @@ namespace razorweb
                 options.LogoutPath = "/logout/";
                 options.AccessDeniedPath = "/khongduoctruycap.html";
             });
+
+            services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -124,9 +127,24 @@ dotnet aspnet-codegenerator razorpage -m razorweb.models.Article -dc razorweb.mo
 
 Identity:
     Authentication: Xác định danh tính -> Login logout
-    Authorization: Xác thực quyền truy cập -> có quyền gì 
-    Quản lý user(từ đăng ký): Sign up, User, Role,..
 
+    Authorization: Xác thực quyền truy cập -> có quyền gì 
+        Role-based authorization - Xác thực quyền theo vai trò
+        + Role (vai trò):
+            Admin, Editor, Manager, Member
+
+        // /Areas/Admin/Pages/Role
+        + Index
+        + Create
+        + Edit
+        + Delete
+
+        // Xác thực quyền
+        dotnet new page -n Index -o Areas/Admin/Pages/Role --namespace App.Admin.Role
+        dotnet new page -n Create -o Areas/Admin/Pages/Role --namespace App.Admin.Role
+
+
+    Quản lý user(từ đăng ký): Sign up, User, Role,..
 - Identity/Account/Login
 - Identity/Account/Manage
 

@@ -3,14 +3,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using razorweb.Models;
 
-namespace razorweb.models 
+namespace razorweb.models
 {
     // razorweb.models.MyBlogContext
     public class MyBlogContext : IdentityDbContext<AppUser>
     {
         public MyBlogContext(DbContextOptions<MyBlogContext> options) : base(options)
         {
-          //..
+            //..
+            //   this.Roles
+            //   IdentityRoles<string>
         }
 
         private readonly IConfiguration _configuration;
@@ -32,7 +34,7 @@ namespace razorweb.models
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {
-               var tableName = entityType.GetTableName();
+                var tableName = entityType.GetTableName();
 
                 if (tableName.StartsWith("AspNet"))
                 {
@@ -41,7 +43,7 @@ namespace razorweb.models
             }
         }
 
-        
+
 
         public DbSet<Article> articles { get; set; }
     }
