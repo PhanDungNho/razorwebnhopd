@@ -15,6 +15,8 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using razorweb.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using App.Services;
+using App.Security.Requirements;
+using Microsoft.AspNetCore.Authorization;
 
 namespace razorweb
 {
@@ -103,7 +105,32 @@ namespace razorweb
                     //     "value2"
                     // });
                 });
+
+                options.AddPolicy("InGenZ", policyBuilder =>
+                {
+                    //điều kiện của policy
+                    policyBuilder.RequireAuthenticatedUser();
+                    policyBuilder.Requirements.Add(new GenZRequirement()); // GenZRequirement
+
+                    // new GenZRequirement() => Authorization handler
+                });
+
+                options.AddPolicy("ShowAdminMenu", policyBuilder =>
+                {
+                    //điều kiện của policy
+                    policyBuilder.RequireAuthenticatedUser();
+                    policyBuilder.RequireRole("Admin");
+
+                    // new GenZRequirement() => Authorization handler
+                });
+
+                options.AddPolicy("CanUpdateArticle", policyBuilder =>
+                {
+                     policyBuilder.Requirements.Add(new ArticleUpdateRequirement()); // GenZRequirement
+                });
             });
+
+            services.AddTransient<IAuthorizationHandler, AppAuthorizationHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
