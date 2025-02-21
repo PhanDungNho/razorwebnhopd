@@ -32,11 +32,12 @@ namespace razorweb
         {
             services.AddOptions();
             var mailSettings = Configuration.GetSection("MailSettings");
-            services.Configure<MailSettings>(mailSettings); 
+            services.Configure<MailSettings>(mailSettings);
             services.AddSingleton<IEmailSender, SendMailService>();
 
             services.AddRazorPages();
-            services.AddDbContext<MyBlogContext>(options => {
+            services.AddDbContext<MyBlogContext>(options =>
+            {
                 string connectString = Configuration.GetConnectionString("MyBlogContext");
                 options.UseNpgsql(connectString);
             });
@@ -51,7 +52,8 @@ namespace razorweb
             //    .AddDefaultTokenProviders();
 
             // Truy cập IdentityOptions
-            services.Configure<IdentityOptions>(options => {
+            services.Configure<IdentityOptions>(options =>
+            {
                 // Thiết lập về Password
                 options.Password.RequireDigit = false; // Không bắt phải có số
                 options.Password.RequireLowercase = false; // Không bắt phải có chữ thường
@@ -76,13 +78,32 @@ namespace razorweb
                 options.SignIn.RequireConfirmedAccount = true;
             });
 
-            services.ConfigureApplicationCookie(options => {
+            services.ConfigureApplicationCookie(options =>
+            {
                 options.LoginPath = "/login/";
                 options.LogoutPath = "/logout/";
                 options.AccessDeniedPath = "/khongduoctruycap.html";
             });
 
             services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AllowEditRole", policyBuilder =>
+                {
+                    //điều kiện của policy
+                    policyBuilder.RequireAuthenticatedUser();
+                    // policyBuilder.RequireRole("Admin");
+                    // policyBuilder.RequireRole("Editor");
+                    policyBuilder.RequireClaim("canedit", "user");
+
+                    //Claims-based authorization
+                    // policyBuilder.RequireClaim("Ten Claims", new string[] {
+                    //     "value1",
+                    //     "value2"
+                    // });
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -142,6 +163,18 @@ Identity:
         // Xác thực quyền
         dotnet new page -n Index -o Areas/Admin/Pages/Role --namespace App.Admin.Role
         dotnet new page -n Create -o Areas/Admin/Pages/Role --namespace App.Admin.Role
+        dotnet new page -n claimsInUserClaim -o Areas/Admin/Pages/User --namespace App.Admin.User
+
+        *Policy-based authorization
+        *Claims-based authorization
+            -> Claims là đặt tính hay tính chất của một đối tượng (User)
+            VD: 
+                Bằng B2 coi là vai trò (quyền được phép lái xe)
+                -Ngày sinh -> claim
+                -Nơi sinh -> claim
+
+                Mua rượu ( > 18 tuổi)
+                
 
 
     Quản lý user(từ đăng ký): Sign up, User, Role,..
