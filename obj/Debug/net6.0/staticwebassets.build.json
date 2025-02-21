@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "Hash": "LDFcOWuuibov3lDrXUmlGLiK23XkQWWKMgypRFQFiHc=",
-  "Source": "razorweb",
-  "BasePath": "_content/razorweb",
+  "Hash": "Dh4pHG1YRbscTPpCfdSBd2hBqlLtuB2d3hgPv5fR60M=",
+  "Source": "App",
+  "BasePath": "_content/App",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "razorweb\\wwwroot",
-      "Source": "razorweb",
+      "Name": "App\\wwwroot",
+      "Source": "App",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "Pattern": "**"
     }
   ],
@@ -774,10 +774,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\css\\site.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -795,10 +795,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\favicon.ico",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -816,10 +816,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\js\\site.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -837,10 +837,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -858,10 +858,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -879,10 +879,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -900,10 +900,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -921,10 +921,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -942,10 +942,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -963,10 +963,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -984,10 +984,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1005,10 +1005,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1026,10 +1026,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1047,10 +1047,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1068,10 +1068,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1089,10 +1089,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1110,10 +1110,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1131,10 +1131,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1152,10 +1152,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1173,10 +1173,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1194,10 +1194,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1215,10 +1215,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1236,10 +1236,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1257,10 +1257,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1278,10 +1278,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1299,10 +1299,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1320,10 +1320,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1341,10 +1341,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1362,10 +1362,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1383,10 +1383,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1404,10 +1404,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1425,10 +1425,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1446,10 +1446,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1459,18 +1459,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ukz1g2vv03",
-      "Integrity": "oo12yYOwbYfrLG1t6v9+HU+vMvEnlKkr1eIcdUwG7Zs=",
+      "Fingerprint": "5ho2xwhpsq",
+      "Integrity": "aXmczANqqFAxM8DOF+UoHBwMm7xKaTRPFe7hYs4WdOQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1488,10 +1488,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1509,10 +1509,10 @@
     },
     {
       "Identity": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "razorweb",
+      "SourceId": "App",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\",
-      "BasePath": "_content/razorweb",
+      "BasePath": "_content/App",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -5487,6 +5487,51 @@
       ]
     },
     {
+      "Route": "lib/jquery/dist/jquery.5ho2xwhpsq.js",
+      "AssetFile": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aXmczANqqFAxM8DOF+UoHBwMm7xKaTRPFe7hYs4WdOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 12:15:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ho2xwhpsq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aXmczANqqFAxM8DOF+UoHBwMm7xKaTRPFe7hYs4WdOQ="
+        }
+      ]
+    },
+    {
       "Route": "lib/jquery/dist/jquery.js",
       "AssetFile": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
@@ -5505,11 +5550,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oo12yYOwbYfrLG1t6v9+HU+vMvEnlKkr1eIcdUwG7Zs=\""
+          "Value": "\"aXmczANqqFAxM8DOF+UoHBwMm7xKaTRPFe7hYs4WdOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 03:03:03 GMT"
+          "Value": "Fri, 21 Feb 2025 12:15:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5519,7 +5564,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oo12yYOwbYfrLG1t6v9+HU+vMvEnlKkr1eIcdUwG7Zs="
+          "Value": "sha256-aXmczANqqFAxM8DOF+UoHBwMm7xKaTRPFe7hYs4WdOQ="
         }
       ]
     },
@@ -5684,51 +5729,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-82hEkGrSMJh3quMSG4f7FbngmAPLTDM63H4eNayS4Us="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "D:\\C#\\razerweb\\razorwebnhopd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "298502"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oo12yYOwbYfrLG1t6v9+HU+vMvEnlKkr1eIcdUwG7Zs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 03:03:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ukz1g2vv03"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oo12yYOwbYfrLG1t6v9+HU+vMvEnlKkr1eIcdUwG7Zs="
         }
       ]
     },

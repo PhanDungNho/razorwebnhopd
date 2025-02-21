@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5B4H+CQlr5M=",
+  "dgSpecHash": "nyflSOf7v8o=",
   "success": true,
-  "projectFilePath": "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj",
+  "projectFilePath": "D:\\C#\\razerweb\\razorwebnhopd\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phand\\.nuget\\packages\\bogus\\33.0.2\\bogus.33.0.2.nupkg.sha512",
     "C:\\Users\\phand\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",

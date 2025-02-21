@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using razorweb.Models;
+using App.Models;
 
-namespace razorweb.models
+namespace App.Models
 {
-    // razorweb.models.MyBlogContext
-    public class MyBlogContext : IdentityDbContext<AppUser>
+    // App.Models.MyBlogContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
-        public MyBlogContext(DbContextOptions<MyBlogContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             //..
             //   this.Roles
@@ -17,7 +17,7 @@ namespace razorweb.models
 
         private readonly IConfiguration _configuration;
 
-        public MyBlogContext(DbContextOptions<MyBlogContext> options, IConfiguration configuration) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration) : base(options)
         {
             _configuration = configuration;
         }

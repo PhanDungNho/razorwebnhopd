@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace razorweb.Migrations
+namespace App.Migrations
 {
     public partial class addIdentity : Migration
     {

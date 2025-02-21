@@ -10,8 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using razorweb.models;
-using razorweb.Models;
+using App.Models;
 
 namespace App.Admin.User
 {
@@ -21,13 +20,13 @@ namespace App.Admin.User
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly MyBlogContext _context;
+        private readonly App.Models.AppDbContext _context;
 
         public AddRoleModel(
             UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
             RoleManager<IdentityRole> roleManager,
-            MyBlogContext context)
+            App.Models.AppDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;

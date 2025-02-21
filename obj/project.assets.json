@@ -6909,9 +6909,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj",
-      "projectName": "razorweb",
-      "projectPath": "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj",
+      "projectUniqueName": "D:\\C#\\razerweb\\razorwebnhopd\\App.csproj",
+      "projectName": "App",
+      "projectPath": "D:\\C#\\razerweb\\razorwebnhopd\\App.csproj",
       "packagesPath": "C:\\Users\\phand\\.nuget\\packages\\",
       "outputPath": "D:\\C#\\razerweb\\razorwebnhopd\\obj\\",
       "projectStyle": "PackageReference",

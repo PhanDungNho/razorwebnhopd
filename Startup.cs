@@ -10,15 +10,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Identity;
-using razorweb.models;
+using App.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using razorweb.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using App.Services;
 using App.Security.Requirements;
 using Microsoft.AspNetCore.Authorization;
 
-namespace razorweb
+namespace App
 {
     public class Startup
     {
@@ -38,7 +37,7 @@ namespace razorweb
             services.AddSingleton<IEmailSender, SendMailService>();
 
             services.AddRazorPages();
-            services.AddDbContext<MyBlogContext>(options =>
+            services.AddDbContext<Models.AppDbContext>(options =>
             {
                 string connectString = Configuration.GetConnectionString("MyBlogContext");
                 options.UseNpgsql(connectString);
@@ -46,7 +45,7 @@ namespace razorweb
 
             // Dang ký Identity
             services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<MyBlogContext>()
+                .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
             //services.AddDefaultIdentity<AppUser>()
@@ -170,7 +169,7 @@ namespace razorweb
 /*
 CREATE, READ, UPDATE, DELETE (CRUD)
 
-dotnet aspnet-codegenerator razorpage -m razorweb.models.Article -dc razorweb.models.MyBlogContext -outDir Pages/Blog -udl --referenceScriptLibraries
+dotnet aspnet-codegenerator razorpage -m App.Models.Article -dc App.Models.MyBlogContext -outDir Pages/Blog -udl --referenceScriptLibraries
 
 
 Identity:
@@ -208,6 +207,6 @@ Identity:
 - Identity/Account/Login
 - Identity/Account/Manage
 
-dotnet aspnet-codegenerator identity -dc razorweb.models.MyBlogContext
+dotnet aspnet-codegenerator identity -dc App.Models.MyBlogContext
 
 */

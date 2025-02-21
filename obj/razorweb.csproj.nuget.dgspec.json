@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj": {}
+    "D:\\C#\\razerweb\\Appnhopd\\App.csproj": {}
   },
   "projects": {
-    "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj": {
+    "D:\\C#\\razerweb\\Appnhopd\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj",
-        "projectName": "razorweb",
-        "projectPath": "D:\\C#\\razerweb\\razorwebnhopd\\razorweb.csproj",
+        "projectUniqueName": "D:\\C#\\razerweb\\Appnhopd\\App.csproj",
+        "projectName": "App",
+        "projectPath": "D:\\C#\\razerweb\\Appnhopd\\App.csproj",
         "packagesPath": "C:\\Users\\phand\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\razerweb\\razorwebnhopd\\obj\\",
+        "outputPath": "D:\\C#\\razerweb\\Appnhopd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

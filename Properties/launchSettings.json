@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "razorweb": {
+    "App": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

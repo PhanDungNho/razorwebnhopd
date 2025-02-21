@@ -6,16 +6,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using razorweb.models;
-using razorweb.Models;
+using App.Models;
 
 namespace App.Admin.User
 {
     public class EditUserClaimModel : PageModel
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly MyBlogContext _context;
-        public EditUserClaimModel(MyBlogContext context, UserManager<AppUser> userManager)
+        private readonly AppDbContext _context;
+        public EditUserClaimModel(AppDbContext context, UserManager<AppUser> userManager)
         {
             _context = context;
             _userManager = userManager;

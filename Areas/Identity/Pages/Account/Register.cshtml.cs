@@ -13,9 +13,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using razorweb.Models;
+using App.Models;
 
-namespace razorweb.Areas.Identity.Pages.Account
+namespace App.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel
@@ -99,7 +99,7 @@ namespace razorweb.Areas.Identity.Pages.Account
                         protocol: Request.Scheme);
 
                     await _emailSender.SendEmailAsync(Input.Email, "Xác nhận địa chỉ email",
-                        $"Bạn đã đăng ký tài khoản trên RazorWeb hãy <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>bấm vào đây</a> để kích hoạt tài khoản.");
+                        $"Bạn đã đăng ký tài khoản trên App hãy <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>bấm vào đây</a> để kích hoạt tài khoản.");
 
                     // kiểm tra cấu hình requireconfirmaccount
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
